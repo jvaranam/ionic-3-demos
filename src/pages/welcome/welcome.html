@@ -1,0 +1,33 @@
+<!--
+  Generated template for the WelcomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>welcome</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+<ion-content padding>
+    <label>Welcome to SQM Product</label>
+    <br>
+    <!-- <ion-item>
+        <ion-label>Daenerys Targaryen</ion-label>
+        <ion-checkbox color="dark" checked="true"></ion-checkbox>
+    </ion-item> -->
+    <a (click)="navigateTo('login')"> Login</a>
+    <a (click)="navigateTo('signup')"> Sign up</a>
+    <a (click)="navigateTo('forgotPassword')"> Forgot Password</a>
+    <a (click)="navigateTo('tutorial')"> Tutorial</a>
+    <a (click)="navigateTo('faq')"> FAQ</a>
+    <a (click)="navigateTo('contact')"> Contact</a>
+    <a (click)="navigateTo('about')"> About</a><br><br>
+    <a (click)="navigateTo('home')"> Home</a>
+    <a (click)="navigateTo('actionSheet')"> Action Sheet</a>
+    <a (click)="navigateTo('alerts')"> Alerts</a>
+    <a (click)="navigateTo('badges')"> Badges</a>
+    <a (click)="navigateTo('chip')"> Chips</a>
+</ion-content>
